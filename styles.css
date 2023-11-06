@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+        background-color: rgb(149, 149, 249);
+        padding: none;
+        
+}
+
+h1 {
+    color: #333;
+}
+
+.task-input {
+    margin: 20px 0;
+}
+
+.task-input input {
+    padding: 10px 20px;
+    width: 70%;
+    display: inline-block;
+    background-color: #faf4f8;
+    color: #514646; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+
+.task-input button {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #5558ff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  
+}
+
+.task-input button :hover{
+        background-color:  #0c65a1;
+}
+
+
+.task-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.task-category {
+    background-color: #faf4f8;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.task-category h2 {
+    margin: 0;
+}
+
+.task-card {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;    
+}
+
+.task-card button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.task-card button:hover {
+    color: red;
+}
+
+
